@@ -2,7 +2,7 @@ import { PokemonList } from './pokemon.model';
 export const POKEMON_LIST: PokemonList = [
   {
     id: 1,
-    name: 'lbizarre',
+    name: 'Bulbizarre',
     life: 25,
     damage: 5,
     picture:
