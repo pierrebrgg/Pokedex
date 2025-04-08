@@ -7,6 +7,9 @@ import { POKEMON_LIST } from './pokemon-list.fake';
   providedIn: 'root'
 })
 export class PokemonService {
+  updatePokemon(updatedPokemon: Pokemon) {
+    throw new Error('Method not implemented.');
+  }
 
   getpokemonList(): PokemonList {
     return POKEMON_LIST;
